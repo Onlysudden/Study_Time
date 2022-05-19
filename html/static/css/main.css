@@ -1,0 +1,18 @@
+h1 {
+	color: red;
+	font-size: 48px;
+}
+p {
+	color: red;
+	font-size: 14px;
+	font-family: Arial;
+}
+.odd {
+		color: blue;
+}
+.even {
+		background-color: #f6af2b;
+}
+#title {
+	color: purple;
+}

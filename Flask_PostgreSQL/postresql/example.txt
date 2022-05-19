@@ -1,0 +1,15 @@
+create table courses (
+	name varchar(255),
+	body text,
+	created_at timestamp
+);
+create table users (
+	first_name varchar(255),
+	email varchar(255),
+	manager boolean
+);
+create table course_members (
+	user_id integer,
+	course_id integer,
+	created_at timestamp
+);

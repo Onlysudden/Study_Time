@@ -1,0 +1,5 @@
+Для запуска потребуется cmd запущенная через администратора.
+
+Dism /online /Enable-Feature /FeatureName:TelnetClient - Включить
+
+Dism /online /Disable-Feature /FeatureName:TelnetClient - Отключить

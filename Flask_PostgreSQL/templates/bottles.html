@@ -1,0 +1,8 @@
+<!doctype html>
+<h1>Mystery Bottles</h1>
+<ul>
+{% for i in range(99, 0, -1) %}
+  <li>{{ "%s %s"|format(i, "бутылок чего-то стояло на столе, одна упала и разбилась") }}</li>
+{% endfor %}
+<li>{{ "Бутылок не осталось" }}</li>
+</ul>

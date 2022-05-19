@@ -1,0 +1,15 @@
+<title>{{ title }}</title>
+<table border="1">	
+    {% for value, keys in query %}
+        <tr>
+        <td><b>{{ value }}</b></td>
+        {% for key in keys %}
+            <td>
+            {{ key }}
+            </td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+
+<!-- Example link - http://127.0.0.1:5000/args?k=1&valera=2&gym=yes -->
